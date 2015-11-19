@@ -1,0 +1,23 @@
+{
+  "name": "startPoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t [ babelify --presets [ es2015 react ] ] main.jsx -o bundle.js --extension=.jsx",
+    "watch": "watchify -t [ babelify --presets [ es2015 react ] ] main.jsx -o bundle.js --extension=.jsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "watchify": "^3.6.1"
+  }
+}
