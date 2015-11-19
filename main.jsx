@@ -10,7 +10,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloMessage from './helloMessage';
+import HelloMessage from './components/helloMessage';
 
 
 ReactDOM.render(
